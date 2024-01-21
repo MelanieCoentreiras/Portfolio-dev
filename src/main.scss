@@ -4,6 +4,53 @@
 // Include any default variable overrides here (though functions won't be available)
 $primary: black;
 
+
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+:root {
+    --bs-body-font-family: 'Outfit', sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+
+.navbar-text,
+.nav-link {
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+}
+
+.navbar-brand {
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.1rem;
+
+
+}
+
+.hero-section {
+    background-color: black;
+    height: 100vh;
+}
+
+
+
+
+.btn {
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    border-radius: 100px;
+    border: 2px solid var(--Main-Gray, #606060);
+    padding: 16px 30px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
